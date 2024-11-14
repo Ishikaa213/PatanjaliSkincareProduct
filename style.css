@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+ html,body{
+width: 100%;
+height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+}
+.container h1{
+    position: absolute;
+   margin-left: 40%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+}
+.MM h2{
+    margin-left: 37%;
+    margin-top: 10%;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    background-color: palevioletred;
+    color: whitesmoke;
+    padding: 7px 50px;
+    border-radius: 50px;
+}
+.skincare{
+    display: flex;
+    justify-content:center;
+    gap: 180px;
+    margin-top: 17%;
+    margin-left: 25%;
+    position: absolute;
+}
+.skincare .spots img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 90px;
+}
+.spots h1{
+
+}
+.skincare .pimples img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 90px;
+}
+.skincare .pores img{
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 90px;
+}
+.skincare .tightening img{
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 90px;
+}
+.skincare h2{
+    margin-top: 5px;
+}
+.multaniMitti img{
+    margin-top: 14%;
+    margin-left: %;
+    width: 50%;
+}
